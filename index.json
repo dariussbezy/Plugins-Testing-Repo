@@ -200,7 +200,7 @@
       "author": "dariuss",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "1.1.4-beta"
+        "beta": "1.1.5-beta"
       },
       "versions": {
         "1.1.2-beta": {
@@ -229,6 +229,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.4-beta.zip",
           "sha256": "afb984087e2fc2461a234400fc8d34338127ca653d18e22ef00f5e045f0c0fa5",
           "size": 14442,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.5-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.5-beta.zip",
+          "sha256": "c0ce4404299b0c628ad2f26aeca9288f0dc840addb9c7e5b02cdf65cb95b4bb9",
+          "size": 14427,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
