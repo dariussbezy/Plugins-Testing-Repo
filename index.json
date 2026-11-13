@@ -9,13 +9,13 @@
       "author": "dariuss",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "beta": "2.0.0-beta"
+        "beta": "2.0.1-beta"
       },
       "versions": {
-        "2.0.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.0-beta.zip",
-          "sha256": "6dc527b6911db73e7964896bcdf42b8f11d7482ca993eb24f29cbcd4a5aeccde",
-          "size": 13516,
+        "2.0.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.1-beta.zip",
+          "sha256": "259a481db4e7a88f2a3c1a21f5cf42249afda6b0ea88877b8431db3859a37ff9",
+          "size": 13683,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -31,13 +31,13 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "2.0.0-beta"
+        "beta": "2.0.1-beta"
       },
       "versions": {
-        "2.0.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.0-beta.zip",
-          "sha256": "771330e6351cbcd15fccb598b8dac382b2ea9a077a7e0c18a34544b43dc5b1d6",
-          "size": 2599,
+        "2.0.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.1-beta.zip",
+          "sha256": "f41c0f1526d7924f4b6645f0de8d469d6d86c3fc1d5b5f0c4c4cb4035280771f",
+          "size": 2651,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -56,13 +56,13 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "1.2.0-beta"
+        "beta": "1.2.1-beta"
       },
       "versions": {
-        "1.2.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.0-beta.zip",
-          "sha256": "1083f2ff3c3181597e160796c1ccc9c596edc4a7d7a326729638eca29fbd991b",
-          "size": 7404,
+        "1.2.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.1-beta.zip",
+          "sha256": "256dbb141d7768e0da295b8da0889f18254f1f638710e948f3011de4e1be7d99",
+          "size": 7419,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -147,48 +147,24 @@
         }
       }
     },
-    "dariuss.show-hidden-channels": {
-      "name": "Show Hidden Channels",
-      "description": "Show hidden channel metadata with lock indicators and an information card.",
-      "author": "dariuss",
-      "icon": "LockIcon",
-      "channels": {
-        "beta": "1.1.0-beta"
-      },
-      "versions": {
-        "1.1.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.show-hidden-channels@1.1.0-beta.zip",
-          "sha256": "499486dc98e560c80bd7fca3252bc5c0c7b6c1079bac058a63d2c110354cdfa7",
-          "size": 7055,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        }
-      }
-    },
     "dariuss.spotify-controls": {
       "name": "Spotify Controls",
       "description": "Control Spotify from a Quest-style player above the YouBar.",
       "author": "dariuss",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "1.1.0-beta"
+        "beta": "1.1.1-beta"
       },
       "versions": {
-        "1.1.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.0-beta.zip",
-          "sha256": "7c37ac97ff52efe235dc2dded6c206a08ba5b686e01404d40d016c3fc098d515",
-          "size": 14378,
+        "1.1.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.1-beta.zip",
+          "sha256": "f44ec43846608ee7a2532d62b5de3a1e0a46dac427b39407fc176c0387a44885",
+          "size": 14371,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
             },
-            "discord": {
-              "version": ">=352.6"
-            }
+            "discord": {}
           }
         }
       }
@@ -199,13 +175,13 @@
       "author": "dariuss",
       "icon": "MicrophoneIcon",
       "channels": {
-        "beta": "1.1.0-beta"
+        "beta": "1.1.1-beta"
       },
       "versions": {
-        "1.1.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.0-beta.zip",
-          "sha256": "06ab72154fada71756cf1ce5480388f45f37ffbdee3aa8abd6b9788ced15e8a4",
-          "size": 7767,
+        "1.1.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.1-beta.zip",
+          "sha256": "6fb445551537392c887e816570fa99581e858af1cddd6b552db2950d3c26044e",
+          "size": 7798,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
