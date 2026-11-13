@@ -9,13 +9,13 @@
       "author": "dariuss",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "beta": "2.0.1-beta"
+        "beta": "2.0.2-beta"
       },
       "versions": {
-        "2.0.1-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.1-beta.zip",
-          "sha256": "259a481db4e7a88f2a3c1a21f5cf42249afda6b0ea88877b8431db3859a37ff9",
-          "size": 13683,
+        "2.0.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.2-beta.zip",
+          "sha256": "03a268dd838a1bbb24d3764da799821f6594c7108168aa2c045799ede7b77942",
+          "size": 13750,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -31,13 +31,13 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "2.0.1-beta"
+        "beta": "2.0.2-beta"
       },
       "versions": {
-        "2.0.1-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.1-beta.zip",
-          "sha256": "f41c0f1526d7924f4b6645f0de8d469d6d86c3fc1d5b5f0c4c4cb4035280771f",
-          "size": 2651,
+        "2.0.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.2-beta.zip",
+          "sha256": "a15e663160f54f3b82fcbde9d332b975cabc157479872f2f2684e4766ba40c4c",
+          "size": 2657,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -56,13 +56,13 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "1.2.1-beta"
+        "beta": "1.2.2-beta"
       },
       "versions": {
-        "1.2.1-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.1-beta.zip",
-          "sha256": "256dbb141d7768e0da295b8da0889f18254f1f638710e948f3011de4e1be7d99",
-          "size": 7419,
+        "1.2.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.2-beta.zip",
+          "sha256": "4d80a9b36541a1d1e9e105f6fcf3d256fa7552a7e833d4d0e866d945c1fcbb23",
+          "size": 7440,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -131,13 +131,13 @@
       "author": "dariuss",
       "icon": "LanguageIcon",
       "channels": {
-        "beta": "1.1.0-beta"
+        "beta": "1.1.1-beta"
       },
       "versions": {
-        "1.1.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@1.1.0-beta.zip",
-          "sha256": "ec14af7dcb3cc08fc4ece66d6b451611a83af0ad93728a611187b74fcc70f2d5",
-          "size": 25679,
+        "1.1.1-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@1.1.1-beta.zip",
+          "sha256": "d928b66ba41b4edb835524597c338684f72765690be711e4b61934bad0558430",
+          "size": 25908,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -153,13 +153,13 @@
       "author": "dariuss",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "1.1.1-beta"
+        "beta": "1.1.2-beta"
       },
       "versions": {
-        "1.1.1-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.1-beta.zip",
-          "sha256": "f44ec43846608ee7a2532d62b5de3a1e0a46dac427b39407fc176c0387a44885",
-          "size": 14371,
+        "1.1.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.2-beta.zip",
+          "sha256": "c9443c6f700ab4d62121f04bb9d1a1aba7be54d5d7d1e3996917bea79e49ac9b",
+          "size": 14395,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -175,13 +175,13 @@
       "author": "dariuss",
       "icon": "MicrophoneIcon",
       "channels": {
-        "beta": "1.1.1-beta"
+        "beta": "1.1.2-beta"
       },
       "versions": {
-        "1.1.1-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.1-beta.zip",
-          "sha256": "6fb445551537392c887e816570fa99581e858af1cddd6b552db2950d3c26044e",
-          "size": 7798,
+        "1.1.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.2-beta.zip",
+          "sha256": "fc9255fd6f29774612f08b18e80d2a779b4e1decf545b6a9c0f39da9b3f5ce53",
+          "size": 7826,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
