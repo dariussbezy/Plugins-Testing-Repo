@@ -9,13 +9,13 @@
       "author": "dariuss",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "beta": "2.0.2-beta"
+        "beta": "2.0.3-beta"
       },
       "versions": {
-        "2.0.2-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.2-beta.zip",
-          "sha256": "03a268dd838a1bbb24d3764da799821f6594c7108168aa2c045799ede7b77942",
-          "size": 13750,
+        "2.0.3-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.3-beta.zip",
+          "sha256": "d54b9aee380182e619c1dc288ec415749b56c317c973ef2da4e835d3a073f1e0",
+          "size": 13809,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
