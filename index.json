@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "name": "dariussbezy's Plugins (Testing)",
+  "description": "Test builds of dariussbezy's plugins for Valenced.",
+  "plugins": {
+    "dariuss.advanced-message-logger": {
+      "name": "Adv. Message Logger",
+      "description": "Review edited and deleted messages in a local journal, in chat and in settings. Other plugins can build on it.",
+      "author": "dariuss",
+      "icon": "ChatMarkUnreadIcon",
+      "channels": {
+        "beta": "2.0.0-beta"
+      },
+      "versions": {
+        "2.0.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.0.0-beta.zip",
+          "sha256": "6dc527b6911db73e7964896bcdf42b8f11d7482ca993eb24f29cbcd4a5aeccde",
+          "size": 13516,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    },
+    "dariuss.ghost-ping-logger": {
+      "name": "Ghost Ping Logger",
+      "description": "Find deleted or edited mentions and replies in the journal of Adv. Message Logger and get alerted about them.",
+      "author": "dariuss",
+      "icon": "AtIcon",
+      "channels": {
+        "beta": "2.0.0-beta"
+      },
+      "versions": {
+        "2.0.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.0-beta.zip",
+          "sha256": "771330e6351cbcd15fccb598b8dac382b2ea9a077a7e0c18a34544b43dc5b1d6",
+          "size": 2599,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "dariuss.advanced-message-logger": {
+              "version": ">=2 <3"
+            }
+          }
+        }
+      }
+    },
+    "dariuss.jump-to-ping": {
+      "name": "Jump to Ping",
+      "description": "Find unread mentions, replies and DMs, then jump straight to the message.",
+      "author": "dariuss",
+      "icon": "AtIcon",
+      "channels": {
+        "beta": "1.2.0-beta"
+      },
+      "versions": {
+        "1.2.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.0-beta.zip",
+          "sha256": "1083f2ff3c3181597e160796c1ccc9c596edc4a7d7a326729638eca29fbd991b",
+          "size": 7404,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    },
+    "dariuss.midnight-theme": {
+      "name": "Midnight Mobile",
+      "description": "Midnight for Discord mobile: navy panels, blue accents, Figtree and the moon icon.",
+      "author": "dariuss",
+      "contributors": [
+        "refact0r (original Midnight theme)",
+        "Font Awesome (moon icon)",
+        "Erik Kennedy (Figtree)"
+      ],
+      "icon": "MoonIcon",
+      "channels": {
+        "beta": "1.0.2-beta"
+      },
+      "versions": {
+        "1.0.2-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@1.0.2-beta.zip",
+          "sha256": "02933ba20e197e593e5adb89b3976778b2e237342e19fabdeba7b3cb619caf94",
+          "size": 1927327,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.themes": {
+              "version": ">=1.0.1 <2"
+            },
+            "valenced.settings.themes": {}
+          }
+        }
+      }
+    },
+    "dariuss.no-tap-mention": {
+      "name": "No Tap Mention",
+      "description": "Disable tapping a message author's name to insert a mention.",
+      "author": "dariussbezy",
+      "icon": "PersonIcon",
+      "channels": {
+        "latest": "1.0.1"
+      },
+      "versions": {
+        "1.0.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-tap-mention@1.0.1.zip",
+          "sha256": "aec44463fdfc8e7e48151894912247fcbf48482acbae7079fc6aa9b53092148d",
+          "size": 1047,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    },
+    "dariuss.quick-translate": {
+      "name": "Quick Translate",
+      "description": "Translate messages and drafts with Google or DeepL.",
+      "author": "dariuss",
+      "icon": "LanguageIcon",
+      "channels": {
+        "beta": "1.1.0-beta"
+      },
+      "versions": {
+        "1.1.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@1.1.0-beta.zip",
+          "sha256": "ec14af7dcb3cc08fc4ece66d6b451611a83af0ad93728a611187b74fcc70f2d5",
+          "size": 25679,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    },
+    "dariuss.show-hidden-channels": {
+      "name": "Show Hidden Channels",
+      "description": "Show hidden channel metadata with lock indicators and an information card.",
+      "author": "dariuss",
+      "icon": "LockIcon",
+      "channels": {
+        "beta": "1.1.0-beta"
+      },
+      "versions": {
+        "1.1.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.show-hidden-channels@1.1.0-beta.zip",
+          "sha256": "499486dc98e560c80bd7fca3252bc5c0c7b6c1079bac058a63d2c110354cdfa7",
+          "size": 7055,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    },
+    "dariuss.spotify-controls": {
+      "name": "Spotify Controls",
+      "description": "Control Spotify from a Quest-style player above the YouBar.",
+      "author": "dariuss",
+      "icon": "MusicIcon",
+      "channels": {
+        "beta": "1.1.0-beta"
+      },
+      "versions": {
+        "1.1.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.1.0-beta.zip",
+          "sha256": "7c37ac97ff52efe235dc2dded6c206a08ba5b686e01404d40d016c3fc098d515",
+          "size": 14378,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": ">=352.6"
+            }
+          }
+        }
+      }
+    },
+    "dariuss.voice-messages-to-text": {
+      "name": "Voice Messages To Text",
+      "description": "Transcribe voice messages below the audio, with a free server or Groq.",
+      "author": "dariuss",
+      "icon": "MicrophoneIcon",
+      "channels": {
+        "beta": "1.1.0-beta"
+      },
+      "versions": {
+        "1.1.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.0-beta.zip",
+          "sha256": "06ab72154fada71756cf1ce5480388f45f37ffbdee3aa8abd6b9788ced15e8a4",
+          "size": 7767,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
+    }
+  }
+}
