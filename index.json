@@ -9,7 +9,7 @@
       "author": "dariuss",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "beta": "2.0.7-beta"
+        "beta": "2.1.0-beta"
       },
       "versions": {
         "2.0.5-beta": {
@@ -44,6 +44,17 @@
             },
             "discord": {}
           }
+        },
+        "2.1.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.1.0-beta.zip",
+          "sha256": "3a799d7d1f64ded857308a3d59ce87b75e5219fa8038930313cbc74f42b0e5c7",
+          "size": 19849,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -53,7 +64,7 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "2.0.3-beta"
+        "beta": "2.0.4-beta"
       },
       "versions": {
         "2.0.2-beta": {
@@ -83,6 +94,20 @@
               "version": ">=2 <3"
             }
           }
+        },
+        "2.0.4-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.0.4-beta.zip",
+          "sha256": "b7c0a56561386a5166e18815dd37237345fc1d007d59694576c6a3d187f5bdf6",
+          "size": 2600,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "dariuss.advanced-message-logger": {
+              "version": ">=2 <3"
+            }
+          }
         }
       }
     },
@@ -92,13 +117,24 @@
       "author": "dariuss",
       "icon": "AtIcon",
       "channels": {
-        "beta": "1.2.2-beta"
+        "beta": "1.3.0-beta"
       },
       "versions": {
         "1.2.2-beta": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.2.2-beta.zip",
           "sha256": "4d80a9b36541a1d1e9e105f6fcf3d256fa7552a7e833d4d0e866d945c1fcbb23",
           "size": 7440,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.3.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@1.3.0-beta.zip",
+          "sha256": "09bcbdd03003e5fc8810dd58ba25fade39f2e3ce32c8774142672a83b296326b",
+          "size": 7921,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -167,7 +203,7 @@
       "author": "dariuss",
       "icon": "LanguageIcon",
       "channels": {
-        "beta": "1.1.4-beta"
+        "beta": "1.2.0-beta"
       },
       "versions": {
         "1.1.1-beta": {
@@ -213,6 +249,17 @@
             },
             "discord": {}
           }
+        },
+        "1.2.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@1.2.0-beta.zip",
+          "sha256": "639f12630229ccee7c738a6a18d5aee5e6a9bbf409d44036b40196f909535fd5",
+          "size": 26325,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -222,7 +269,7 @@
       "author": "dariuss",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "1.1.7-beta"
+        "beta": "1.2.0-beta"
       },
       "versions": {
         "1.1.2-beta": {
@@ -290,6 +337,17 @@
             },
             "discord": {}
           }
+        },
+        "1.2.0-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.spotify-controls@1.2.0-beta.zip",
+          "sha256": "e122a4ddd683e95d3ad222de320916b476d72ec3f5573495511543ef3b008a97",
+          "size": 15336,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -299,7 +357,7 @@
       "author": "dariuss",
       "icon": "MicrophoneIcon",
       "channels": {
-        "beta": "1.1.3-beta"
+        "beta": "1.1.4-beta"
       },
       "versions": {
         "1.1.2-beta": {
@@ -317,6 +375,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.3-beta.zip",
           "sha256": "7efef90f40d89d0a8304ec5fcde080840c70491f059944e99de6d19c57d37aff",
           "size": 7875,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.4-beta": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@1.1.4-beta.zip",
+          "sha256": "1ce197ad7d93a27cc1f049a1c726a39fb1f44d378dc5bd7554239b9b978c5dd8",
+          "size": 8185,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
