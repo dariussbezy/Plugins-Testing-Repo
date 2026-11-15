@@ -1172,14 +1172,25 @@
             },
             "discord": {}
           }
+        },
+        "1.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.1.0.zip",
+          "sha256": "508c3b72f8a109061887277fabdabe9f31efbcedddfabd065b1b5f0d549e1e7c",
+          "size": 11004,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Music Controls",
-      "description": "Play, pause and skip music from any app on your phone with a button beside the notifications bell. Android only.",
+      "description": "Control music from any app with a button beside the notifications bell. Shows the song and cover with the Music Bridge app. Android only.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.1.0"
       }
     }
   }
