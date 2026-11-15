@@ -1140,76 +1140,10 @@
     },
     "dariuss.music-controls": {
       "versions": {
-        "1.0.0": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.0.0.zip",
-          "sha256": "c3266a7c62bb51600d88196838b4c9dca984c2432ef5036f355741f296a45d94",
-          "size": 5657,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
         "1.0.1": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.0.1.zip",
-          "sha256": "1f78cd3164a7754eb0c7a3b63f4d82a921c0fe989c9b6b0fa64860f1a6790182",
-          "size": 5809,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.0.2": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.0.2.zip",
-          "sha256": "c67a60e1e7dded61759c332026ff719040e7eef5d7d42e21a9594b1f4581aa53",
-          "size": 6862,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.1.0": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.1.0.zip",
-          "sha256": "508c3b72f8a109061887277fabdabe9f31efbcedddfabd065b1b5f0d549e1e7c",
-          "size": 11004,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.1.1": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.1.1.zip",
-          "sha256": "09f21af0c8509be408af82cd5d26254ee74046a8b64e4f77527304358ee010d4",
-          "size": 11054,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.1.2": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.1.2.zip",
-          "sha256": "8c5eb6ad3c707c4687da8bc1ac559e6f82422fa8ee13d49dab7dd16ef172263f",
-          "size": 11063,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.2.0": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.2.0.zip",
-          "sha256": "e5011dfc4f74377631e080473bc7961e5eb179e4695c66bffe962e0777576813",
-          "size": 18676,
+          "sha256": "0b183ace87619f15ce95d9e89b367ec0a194c3de7071229f7b2ac89ef9b00686",
+          "size": 24160,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -1219,12 +1153,16 @@
         }
       },
       "name": "Music Controls",
-      "description": "Control music from any app with a player above the YouBar: song, cover, seek, shuffle and repeat through the Music Bridge app. Android only.",
+      "description": "Control Spotify, YouTube Music and SoundCloud from a player above the YouBar. Spotify works on Android and iOS; YouTube Music and SoundCloud need the Music Controls app on Android.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "1.2.0"
-      }
+        "latest": "1.0.1"
+      },
+      "contributors": [
+        "coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")",
+        "kmmiio99o.dev <879393496627306587>"
+      ]
     }
   }
 }
