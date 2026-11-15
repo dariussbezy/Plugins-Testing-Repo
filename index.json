@@ -1161,6 +1161,17 @@
             },
             "discord": {}
           }
+        },
+        "1.0.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.0.2.zip",
+          "sha256": "c67a60e1e7dded61759c332026ff719040e7eef5d7d42e21a9594b1f4581aa53",
+          "size": 6862,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Music Controls",
@@ -1168,7 +1179,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "1.0.1"
+        "latest": "1.0.2"
       }
     }
   }
