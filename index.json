@@ -1205,14 +1205,25 @@
             },
             "discord": {}
           }
+        },
+        "1.2.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.2.0.zip",
+          "sha256": "e5011dfc4f74377631e080473bc7961e5eb179e4695c66bffe962e0777576813",
+          "size": 18676,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Music Controls",
-      "description": "Control music from any app with a button beside the notifications bell. Shows the song and cover with the Music Bridge app. Android only.",
+      "description": "Control music from any app with a player above the YouBar: song, cover, seek, shuffle and repeat through the Music Bridge app. Android only.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "1.1.2"
+        "latest": "1.2.0"
       }
     }
   }
