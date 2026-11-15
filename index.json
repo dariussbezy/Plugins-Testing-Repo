@@ -1065,8 +1065,8 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "SettingsIcon",
       "channels": {
-        "latest": "1.0.1",
-        "beta": "1.0.1"
+        "latest": "1.0.2",
+        "beta": "1.0.2"
       },
       "versions": {
         "1.0.0": {
@@ -1084,6 +1084,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.1.zip",
           "sha256": "4c8dadd74469e67a66f3caccf6dc0d1027200157f005544521061645dac37b1b",
           "size": 3400,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.2.zip",
+          "sha256": "b7c1bea6e7a3c01bf58673d26f11e79ca8cec644235a9cb20d4a8de1b2f8f02b",
+          "size": 3733,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
