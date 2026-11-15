@@ -1020,14 +1020,25 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "TrashIcon",
       "channels": {
-        "latest": "1.0.0",
-        "beta": "1.0.0"
+        "latest": "1.0.1",
+        "beta": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-delete-confirmation@1.0.0.zip",
           "sha256": "8be94d06bd85385d7a7eb03538bf99b0389626cb8466284b7c81a26ac9193253",
           "size": 1592,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-delete-confirmation@1.0.1.zip",
+          "sha256": "a399dc7f5bf0a5aff730eb59816ba88a6fbd16e0ef8bf6478f983fe126f8dfbd",
+          "size": 1652,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
