@@ -1137,6 +1137,28 @@
       "channels": {
         "latest": "1.0.1"
       }
+    },
+    "dariuss.music-controls": {
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@1.0.0.zip",
+          "sha256": "c3266a7c62bb51600d88196838b4c9dca984c2432ef5036f355741f296a45d94",
+          "size": 5657,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      },
+      "name": "Music Controls",
+      "description": "Play, pause and skip music from any app on your phone with a button beside the notifications bell. Android only.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "MusicIcon",
+      "channels": {
+        "latest": "1.0.0"
+      }
     }
   }
 }
