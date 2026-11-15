@@ -9,7 +9,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "beta": "2.2.1",
         "latest": "2.2.1"
       },
       "versions": {
@@ -263,7 +262,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "beta": "2.1.1",
         "latest": "2.1.1"
       },
       "versions": {
@@ -359,7 +357,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "beta": "2.1.4",
         "latest": "2.1.4"
       },
       "versions": {
@@ -479,7 +476,6 @@
       ],
       "icon": "MoonIcon",
       "channels": {
-        "beta": "2.1.1",
         "latest": "2.1.1"
       },
       "versions": {
@@ -551,8 +547,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PersonIcon",
       "channels": {
-        "latest": "2.1.1",
-        "beta": "2.1.1"
+        "latest": "2.1.1"
       },
       "versions": {
         "1.0.1": {
@@ -607,7 +602,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "LanguageIcon",
       "channels": {
-        "beta": "2.1.2",
         "latest": "2.1.2"
       },
       "versions": {
@@ -784,7 +778,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "2.1.2",
         "latest": "2.1.2"
       },
       "versions": {
@@ -942,7 +935,6 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MicrophoneIcon",
       "channels": {
-        "beta": "2.1.1",
         "latest": "2.1.1"
       },
       "versions": {
@@ -1020,8 +1012,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "TrashIcon",
       "channels": {
-        "latest": "1.0.2",
-        "beta": "1.0.2"
+        "latest": "1.0.2"
       },
       "versions": {
         "1.0.0": {
@@ -1065,8 +1056,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "SettingsIcon",
       "channels": {
-        "latest": "1.0.2",
-        "beta": "1.0.2"
+        "latest": "1.0.2"
       },
       "versions": {
         "1.0.0": {
