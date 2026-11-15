@@ -1348,7 +1348,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "DownloadIcon",
       "channels": {
-        "latest": "1.0.7"
+        "latest": "1.0.8"
       },
       "versions": {
         "1.0.0": {
@@ -1432,6 +1432,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.bulk-downloads@1.0.7.zip",
           "sha256": "94cbc9a73f28f31ed32f519cd2c6329fb1d4bc5fb3da328b58f32347a7216910",
           "size": 2930,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.8": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.bulk-downloads@1.0.8.zip",
+          "sha256": "cbaab0d060b09da922763c280fc1142067cd994ef5dcc70074317c1fcf2f921d",
+          "size": 3082,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
