@@ -1218,6 +1218,32 @@
         "coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")",
         "kmmiio99o.dev <879393496627306587>"
       ]
+    },
+    "dariuss.performance-monitor": {
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.performance-monitor@1.0.0.zip",
+          "sha256": "c21cca8798308889c3d5d63bba2238b517eb29956703ffc4fdf92036e40311eb",
+          "size": 5326,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
+        }
+      },
+      "name": "Performance Monitor",
+      "description": "Measures how much time each plugin takes on Discord's JavaScript thread, so you can find the ones that slow Discord down.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "AnalyticsIcon",
+      "channels": {
+        "latest": "1.0.0"
+      }
     }
   }
 }
