@@ -1058,6 +1058,29 @@
           }
         }
       }
+    },
+    "dariuss.message-actions": {
+      "name": "Message Actions",
+      "description": "Reorder or hide the buttons shown when you long-press a message.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "SettingsIcon",
+      "channels": {
+        "latest": "1.0.0",
+        "beta": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.0.zip",
+          "sha256": "61dc62f2bd24ddd63ca772520aedddf2b306ebfb03cf97d453212c9c3285d495",
+          "size": 2929,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
