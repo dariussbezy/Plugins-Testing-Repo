@@ -654,7 +654,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "LanguageIcon",
       "channels": {
-        "latest": "2.2.1"
+        "latest": "2.2.2"
       },
       "versions": {
         "1.1.1-beta": {
@@ -837,6 +837,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@2.2.1.zip",
           "sha256": "4e6b0b6b59bd86eadc8b8da748a9019a8eb80f82acabb3a3a86f2a4ba43eb0df",
           "size": 29332,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.2.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@2.2.2.zip",
+          "sha256": "23a0ec87d0a2b618cc7172af06e0e3341e2216442e5e271d92896e74d37596dc",
+          "size": 29792,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -1557,6 +1568,21 @@
               "optional": true
             }
           }
+        },
+        "1.1.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.performance-monitor@1.1.2.zip",
+          "sha256": "72911486787ae0e5445f1a4dc3dd437c599dd3768be86e214edf2c2580234e37",
+          "size": 13070,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
         }
       },
       "name": "Performance Monitor",
@@ -1564,7 +1590,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AnalyticsIcon",
       "channels": {
-        "latest": "1.1.1"
+        "latest": "1.1.2"
       }
     },
     "dariuss.bulk-downloads": {
