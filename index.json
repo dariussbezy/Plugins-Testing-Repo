@@ -1673,52 +1673,19 @@
         }
       }
     },
-    "dariuss.liquid-glass-youbar": {
-      "name": "Liquid Glass YOUBAR",
-      "description": "Turns the YouBar into liquid glass: a translucent, tinted bar with a thin light border, a soft top highlight and a soft shadow. Works on Android and iOS, in dark and light themes.",
+    "dariuss.transparent-youbar": {
+      "name": "Transparent YOUBAR",
+      "description": "Turns the YouBar into transparent: a translucent, tinted bar with a thin light border, a soft top highlight and a soft shadow. Works on Android and iOS, in dark and light themes.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.0.3"
+        "latest": "1.0.0"
       },
       "versions": {
         "1.0.0": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.liquid-glass-youbar@1.0.0.zip",
-          "sha256": "ca7897d8e3f926beb1c1bc6a18bd6173e5b85a67b34452d5b9be3b02ea2ffee9",
-          "size": 4575,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.0.1": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.liquid-glass-youbar@1.0.1.zip",
-          "sha256": "8b633af378b1aae98645af5831ed6c159329f35dee5282e38e133caaaed2ac8a",
-          "size": 5566,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.0.2": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.liquid-glass-youbar@1.0.2.zip",
-          "sha256": "cc200f9d24fb07ccfdfc112259a6bdce6b7da3a9d145a1c41eab27ffba39444a",
-          "size": 5782,
-          "dependencies": {
-            "valenced.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {}
-          }
-        },
-        "1.0.3": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.liquid-glass-youbar@1.0.3.zip",
-          "sha256": "0b1920fffffb6e22efee0619ab9ed869004e50fac5267fc5afd32dc6e191d6d7",
-          "size": 5799,
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.0.0.zip",
+          "sha256": "c066ac8f17026ba0f946042eb8910aec84dd9a3f7703d2b88f46759be17c46ed",
+          "size": 5065,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
