@@ -498,7 +498,7 @@
       ],
       "icon": "MoonIcon",
       "channels": {
-        "latest": "2.2.0"
+        "latest": "2.2.1"
       },
       "versions": {
         "1.0.2-beta": {
@@ -565,6 +565,21 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.0.zip",
           "sha256": "67443d863852a4267a9245aebc3c8610d503280f03fbece201191592781b603f",
           "size": 1968240,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.themes": {
+              "version": ">=1.0.1 <2"
+            },
+            "valenced.settings.themes": {}
+          }
+        },
+        "2.2.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.1.zip",
+          "sha256": "1c592dc2ed2ff5203de75d35619a5a9474f86e59687b74c142128317f3849c93",
+          "size": 2370471,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
