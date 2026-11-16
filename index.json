@@ -368,7 +368,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "latest": "2.1.4"
+        "latest": "2.2.0"
       },
       "versions": {
         "1.2.2-beta": {
@@ -467,6 +467,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@2.1.4.zip",
           "sha256": "82b64686d83a278e3511aecf1fa271a569cfcf419348df6111a9ba6e9f7756ff",
           "size": 9383,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.2.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@2.2.0.zip",
+          "sha256": "be4d6cbf904fd02722543e29337608e2ebf255693277589a432b09c022169e21",
+          "size": 9574,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
