@@ -1407,11 +1407,11 @@
     },
     "dariuss.bulk-downloads": {
       "name": "Bulk Downloads",
-      "description": "Save every attachment and GIF of a message at once from its long-press menu.",
+      "description": "Save every attachment, GIF and embedded photo or video of a message at once from its long-press menu.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "DownloadIcon",
       "channels": {
-        "latest": "1.0.10"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
@@ -1528,6 +1528,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.bulk-downloads@1.0.10.zip",
           "sha256": "072bacd95c21af5cda932c9d2b3675d780761ce37d3ad6a26f82894053350304",
           "size": 3297,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.bulk-downloads@1.1.0.zip",
+          "sha256": "4da8d25c0c824595b27b7d19a4e21ca4a0ff68c2232deaa5eed0d137023b61fa",
+          "size": 3573,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
