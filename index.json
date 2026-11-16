@@ -489,7 +489,7 @@
     },
     "dariuss.midnight-theme": {
       "name": "Midnight Mobile",
-      "description": "Midnight for Discord mobile: navy panels, blue accents, Figtree and the moon icon.",
+      "description": "Midnight for Discord mobile: navy panels, blue accents, Figtree, the moon icon and an optional outline icon pack.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "contributors": [
         "refact0r (original Midnight theme)",
@@ -498,7 +498,7 @@
       ],
       "icon": "MoonIcon",
       "channels": {
-        "latest": "2.1.1"
+        "latest": "2.2.0"
       },
       "versions": {
         "1.0.2-beta": {
@@ -550,6 +550,21 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.1.1.zip",
           "sha256": "697ebf250eb9ed18a1c82b9fe1f2845c0cfd4f4b34288dd84dcb38283927d3df",
           "size": 1927419,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.themes": {
+              "version": ">=1.0.1 <2"
+            },
+            "valenced.settings.themes": {}
+          }
+        },
+        "2.2.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.0.zip",
+          "sha256": "67443d863852a4267a9245aebc3c8610d503280f03fbece201191592781b603f",
+          "size": 1968240,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
