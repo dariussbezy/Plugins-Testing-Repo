@@ -654,7 +654,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "LanguageIcon",
       "channels": {
-        "latest": "2.2.3"
+        "latest": "2.2.4"
       },
       "versions": {
         "1.1.1-beta": {
@@ -859,6 +859,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@2.2.3.zip",
           "sha256": "4ce7b283ee2955505b26717a2202531bdc8485917eb6e9a0499f9a2abad78b23",
           "size": 29858,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.2.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@2.2.4.zip",
+          "sha256": "a03ff1353514b7ed555a8e4baafd4228e6bbf178a2daefdd2655b8fa67d2473f",
+          "size": 30683,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
