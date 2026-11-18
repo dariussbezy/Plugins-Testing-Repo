@@ -1952,7 +1952,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.0.1"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
@@ -1970,6 +1970,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.0.1.zip",
           "sha256": "fc7ee1648a72aa96f57b8bef702356346fc6983f51233a5efc70da7e88d66c7f",
           "size": 4262,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.1.0.zip",
+          "sha256": "77b390a1bee51429deeed1bac8e35accbbc7b5daf146b3471e09bc9f906b52f6",
+          "size": 4592,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
