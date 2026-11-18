@@ -1996,7 +1996,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "TimerIcon",
       "channels": {
-        "latest": "1.0.1"
+        "latest": "1.0.2"
       },
       "versions": {
         "1.0.0": {
@@ -2014,6 +2014,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-onboarding-delay@1.0.1.zip",
           "sha256": "71cef8138475ea2adc353e8653add6b18780dc2666f2d08cd543ccf3afcd33d6",
           "size": 2318,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-onboarding-delay@1.0.2.zip",
+          "sha256": "86f5833c66dc0d7aaec3f33a0a80066bbdd483f614c97072442ebad185f84268",
+          "size": 2388,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
