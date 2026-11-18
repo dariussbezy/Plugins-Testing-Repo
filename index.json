@@ -2066,6 +2066,28 @@
           }
         }
       }
+    },
+    "dariuss.better-toasts": {
+      "name": "Better Toasts",
+      "description": "Choose how long Discord's pop-up toasts stay, and make a new toast replace the old one.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "BellIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.better-toasts@1.0.0.zip",
+          "sha256": "eb483ed6df87f367a600b9e398df72e1bf1da76645b294983e574649105d70bb",
+          "size": 1640,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
