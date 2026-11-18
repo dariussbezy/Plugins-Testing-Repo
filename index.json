@@ -1989,6 +1989,28 @@
           }
         }
       }
+    },
+    "dariuss.no-onboarding-delay": {
+      "name": "No Onboarding Delay",
+      "description": "Skips the slow waits and animation delays in server onboarding.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "TimerIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-onboarding-delay@1.0.0.zip",
+          "sha256": "146bf4b12a357c267b92f714b3d9f861a9f2b98dd8b5a8d97e3c644a05825bef",
+          "size": 1904,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
