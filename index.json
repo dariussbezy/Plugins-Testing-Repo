@@ -2066,6 +2066,28 @@
           }
         }
       }
+    },
+    "dariuss.file-size-in-picker": {
+      "name": "File Size in Picker",
+      "description": "Shows the size of each photo and video in the attachment picker.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "FileIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.file-size-in-picker@1.0.0.zip",
+          "sha256": "3e823032ab8d701363af37dd6a53ff6d87cbfdf382757eaa9282205d9beed77f",
+          "size": 1663,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
