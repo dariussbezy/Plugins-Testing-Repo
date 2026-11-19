@@ -2073,7 +2073,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "BellIcon",
       "channels": {
-        "latest": "1.0.4"
+        "latest": "1.0.5"
       },
       "versions": {
         "1.0.0": {
@@ -2124,6 +2124,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.better-toasts@1.0.4.zip",
           "sha256": "7c711cc9e0485a1c68aa2536b4b2d3ad8ead886b43f157b745c57f555ce62b9c",
           "size": 2854,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.5": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.better-toasts@1.0.5.zip",
+          "sha256": "a97dc4afcf39e0346fa04dcc081ec33bb0a262eebf456a64c1fcfb7275d046d9",
+          "size": 2391,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
