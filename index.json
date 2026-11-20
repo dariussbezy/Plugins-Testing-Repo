@@ -2319,6 +2319,28 @@
           }
         }
       }
+    },
+    "dariuss.profile-theme-colors": {
+      "name": "Profile Theme Colors",
+      "description": "Pick your profile's primary and secondary colors by hand, from your banner, or with AI.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "PaletteIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.profile-theme-colors@1.0.0.zip",
+          "sha256": "a4b87c75b5df806854f42a8e4897e431d69e297c6b48751053ec43ebc32929bc",
+          "size": 9362,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
