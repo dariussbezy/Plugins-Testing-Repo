@@ -2359,7 +2359,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaletteIcon",
       "channels": {
-        "latest": "1.5.1"
+        "latest": "1.5.2"
       },
       "versions": {
         "1.0.0": {
@@ -2454,6 +2454,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.profile-theme-colors@1.5.1.zip",
           "sha256": "710e881dd23fbd16de4dc1a8faec3000c32695b979ee5a16d61fc6ff4317c0df",
           "size": 17206,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.5.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.profile-theme-colors@1.5.2.zip",
+          "sha256": "d5079c52575cd44f978a6df5c19f05d16f2a49a82d4e113d7532964f0a772e98",
+          "size": 17488,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
