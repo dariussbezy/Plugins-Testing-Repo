@@ -9,7 +9,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "latest": "2.3.5"
+        "latest": "2.4.0"
       },
       "versions": {
         "2.0.5-beta": {
@@ -313,6 +313,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.3.5.zip",
           "sha256": "ab966bb1bb91c1121cff197be932951c7668b9191e1dd74b4b0f0a68c889ca89",
           "size": 22878,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.4.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.4.0.zip",
+          "sha256": "3b8f29c10f14c29b97f49d153eaade138f1c80499aee9e0bd8a0dc571f051f1f",
+          "size": 23051,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
