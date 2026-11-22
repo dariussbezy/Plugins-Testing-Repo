@@ -2627,6 +2627,28 @@
           }
         }
       }
+    },
+    "dariuss.custom-quick-reactions": {
+      "name": "Custom Quick Reactions",
+      "description": "Choose and reorder the quick reaction emojis shown when you long-press a message.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "ReactionIcon",
+      "channels": {
+        "latest": "1.1.0"
+      },
+      "versions": {
+        "1.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@1.1.0.zip",
+          "sha256": "6ff871f99b39d6646c8abf370cf449c1f708a09a15a400e09790422dac3b9ef9",
+          "size": 3763,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
