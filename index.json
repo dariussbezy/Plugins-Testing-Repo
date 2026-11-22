@@ -2634,13 +2634,24 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ReactionIcon",
       "channels": {
-        "latest": "1.1.0"
+        "latest": "1.1.1"
       },
       "versions": {
         "1.1.0": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@1.1.0.zip",
           "sha256": "6ff871f99b39d6646c8abf370cf449c1f708a09a15a400e09790422dac3b9ef9",
           "size": 3763,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@1.1.1.zip",
+          "sha256": "4846d205de4579841dfc88990671d550c04e1febc70e7f403ccada35227311ba",
+          "size": 3832,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
