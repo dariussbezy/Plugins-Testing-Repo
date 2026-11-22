@@ -2634,7 +2634,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ReactionIcon",
       "channels": {
-        "latest": "1.2.1"
+        "latest": "1.2.2"
       },
       "versions": {
         "1.1.0": {
@@ -2685,6 +2685,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@1.2.1.zip",
           "sha256": "487a84ba0c699c9cc9e1d6e09376995edd225ee27bea9ab376bd3d89ab3c04a2",
           "size": 4978,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.2.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@1.2.2.zip",
+          "sha256": "eb77757fc0f1379abb024a9363bc2d1c6206f658bedf94658383b10400d6bc2e",
+          "size": 5034,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
