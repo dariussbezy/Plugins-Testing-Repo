@@ -2810,7 +2810,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "WrenchIcon",
       "channels": {
-        "latest": "1.0.1"
+        "latest": "1.0.2"
       },
       "versions": {
         "1.0.0": {
@@ -2828,6 +2828,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.dev-bridge@1.0.1.zip",
           "sha256": "3531033b4a8895cde73d2c7b0b94a5d2d1b18a34e475c7b4fd2d08a416677b43",
           "size": 3068,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.dev-bridge@1.0.2.zip",
+          "sha256": "33fae097ef6eeaa76bbde20bf2473fa30fbbc0953610b605726c9d0dce3b273d",
+          "size": 3180,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
