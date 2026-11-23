@@ -9,7 +9,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "latest": "2.13.0"
+        "latest": "2.13.1"
       },
       "versions": {
         "2.0.5-beta": {
@@ -467,6 +467,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.0.zip",
           "sha256": "f46e2f999ec444cb59a4606af14f47359971bbcc335c8515963c68c8fa50786d",
           "size": 27663,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.13.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.1.zip",
+          "sha256": "b22b5d27a0ec96402d389888c3214cccdff17d51a70ed9c056f305bda4e3650c",
+          "size": 28438,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -2824,7 +2835,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ReactionIcon",
       "channels": {
-        "latest": "2.2.1"
+        "latest": "2.2.2"
       },
       "versions": {
         "1.1.0": {
@@ -2930,6 +2941,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@2.2.1.zip",
           "sha256": "b233457c189b7a2b15b6bd2720a55fbbef426551a00ec75e559755816b4279d1",
           "size": 7586,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.2.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@2.2.2.zip",
+          "sha256": "17751cfd7aec121b159bcac7144a60a0b4ed5b33a6a3b80305009387edbedc3c",
+          "size": 8404,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
