@@ -2803,6 +2803,28 @@
           }
         }
       }
+    },
+    "dariuss.dev-bridge": {
+      "name": "Dev Bridge",
+      "description": "Developer tool: connects to a bridge on your own computer over your local network, so plugin code can be tried live in Discord. Off until you pair it.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "WrenchIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.dev-bridge@1.0.0.zip",
+          "sha256": "a46e864f5de7638a5b075f1b7cdf4758ddc33c99493d368019fbe341269824a6",
+          "size": 3034,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      }
     }
   }
 }
