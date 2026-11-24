@@ -5,11 +5,11 @@
   "plugins": {
     "dariuss.advanced-message-logger": {
       "name": "Adv. Message Logger",
-      "description": "Review edited and deleted messages in a local journal, in chat and in settings. Other plugins can build on it.",
+      "description": "Keep a local journal of edited and deleted messages, keep them visible in chat and compare edits.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "latest": "2.13.1"
+        "latest": "2.13.2"
       },
       "versions": {
         "2.0.5-beta": {
@@ -484,16 +484,27 @@
             },
             "discord": {}
           }
+        },
+        "2.13.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.2.zip",
+          "sha256": "62d81b92e447bcf975472ba540e558d5b6f091fd3a7cdb7f12d5b78a2cf67211",
+          "size": 28415,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
     "dariuss.ghost-ping-logger": {
       "name": "Ghost Ping Logger",
-      "description": "Find deleted or edited mentions and replies in the journal of Adv. Message Logger and get alerted about them.",
+      "description": "Find mentions and replies that were deleted or edited away and get alerted. Requires Adv. Message Logger.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "latest": "2.1.3"
+        "latest": "2.1.4"
       },
       "versions": {
         "2.0.2-beta": {
@@ -607,16 +618,30 @@
               "version": ">=2 <3"
             }
           }
+        },
+        "2.1.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.ghost-ping-logger@2.1.4.zip",
+          "sha256": "0ebb3fb5aee5db64773dfb410dc84f8c9ba4817f34817e75dad6c88615815b47",
+          "size": 3665,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "dariuss.advanced-message-logger": {
+              "version": ">=2 <3"
+            }
+          }
         }
       }
     },
     "dariuss.jump-to-ping": {
       "name": "Jump to Ping",
-      "description": "Find unread mentions, replies and DMs, then jump straight to the message.",
+      "description": "Jump to unread mentions, replies and DMs from a button beside the notifications bell.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "latest": "2.2.4"
+        "latest": "2.2.5"
       },
       "versions": {
         "1.2.2-beta": {
@@ -776,6 +801,17 @@
             },
             "discord": {}
           }
+        },
+        "2.2.5": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.jump-to-ping@2.2.5.zip",
+          "sha256": "41bcfb70912c48a5c7980fbb3e7db939fcb73af7a2b50a8f612e259413bcd947",
+          "size": 10355,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -790,7 +826,7 @@
       ],
       "icon": "MoonIcon",
       "channels": {
-        "latest": "2.2.2"
+        "latest": "2.2.3"
       },
       "versions": {
         "1.0.2-beta": {
@@ -897,6 +933,21 @@
             },
             "valenced.settings.themes": {}
           }
+        },
+        "2.2.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.3.zip",
+          "sha256": "77da168690698e35bf242b039940b2d47a0bcfa3776f4e473ebdab75eac3cb8f",
+          "size": 11832,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.themes": {
+              "version": ">=1.0.1 <2"
+            },
+            "valenced.settings.themes": {}
+          }
         }
       }
     },
@@ -906,7 +957,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PersonIcon",
       "channels": {
-        "latest": "2.1.2"
+        "latest": "2.1.3"
       },
       "versions": {
         "1.0.1": {
@@ -963,6 +1014,17 @@
             },
             "discord": {}
           }
+        },
+        "2.1.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-tap-mention@2.1.3.zip",
+          "sha256": "c7151e8de025ebc3954fac24b259c9b9aa60c4a2c3a00559a06e39204d75d7ad",
+          "size": 2576,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -972,7 +1034,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "LanguageIcon",
       "channels": {
-        "latest": "2.3.2"
+        "latest": "2.3.3"
       },
       "versions": {
         "1.1.1-beta": {
@@ -1282,6 +1344,17 @@
             },
             "discord": {}
           }
+        },
+        "2.3.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.quick-translate@2.3.3.zip",
+          "sha256": "2e3b52514068c6d350c967c978d7d27560315c87c2a9074c290eec5c5de97d8c",
+          "size": 31093,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -1448,7 +1521,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MicrophoneIcon",
       "channels": {
-        "latest": "2.1.3"
+        "latest": "2.1.4"
       },
       "versions": {
         "1.1.2-beta": {
@@ -1538,6 +1611,17 @@
             },
             "discord": {}
           }
+        },
+        "2.1.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-messages-to-text@2.1.4.zip",
+          "sha256": "5cb754ee7ec143e3946b699e325a916489771e9a1cd188298ed51876ad6b2299",
+          "size": 9194,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -1547,7 +1631,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "TrashIcon",
       "channels": {
-        "latest": "1.0.3"
+        "latest": "1.0.4"
       },
       "versions": {
         "1.0.0": {
@@ -1593,16 +1677,27 @@
             },
             "discord": {}
           }
+        },
+        "1.0.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-delete-confirmation@1.0.4.zip",
+          "sha256": "156661a100719a2bd68f2bed91229ce2623eae8a21179829161ff414360f9b1c",
+          "size": 2637,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
     "dariuss.message-actions": {
       "name": "Message Actions",
-      "description": "Reorder or hide the buttons shown when you long-press a message.",
+      "description": "Reorder, hide or remove the buttons shown when you long-press a message.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "SettingsIcon",
       "channels": {
-        "latest": "1.0.4"
+        "latest": "1.0.5"
       },
       "versions": {
         "1.0.0": {
@@ -1653,6 +1748,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.4.zip",
           "sha256": "1f5cdaaa2276dcbbdcbd5a5d2895a8a736fc11d0749716548084f5627993b5c7",
           "size": 4915,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.5": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.5.zip",
+          "sha256": "652283e531da4f4516ef2147573a502c6bb641a8735db30ae10802572e628ab4",
+          "size": 4706,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -1960,6 +2066,17 @@
             },
             "discord": {}
           }
+        },
+        "2.0.6": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@2.0.6.zip",
+          "sha256": "dde60d4c0d491cc32afd5730dc3642c85a35cfe0236bd3b4a6436c5855f923cd",
+          "size": 24397,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Music Controls",
@@ -1967,7 +2084,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "2.0.5"
+        "latest": "2.0.6"
       },
       "contributors": [
         "coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")",
@@ -2170,6 +2287,21 @@
               "optional": true
             }
           }
+        },
+        "1.2.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.performance-monitor@1.2.4.zip",
+          "sha256": "ef204a6acd8e1518289f6a933764513904de4a478d2e1f7d407fdcafd2d115ac",
+          "size": 19530,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
         }
       },
       "name": "Performance Monitor",
@@ -2177,7 +2309,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AnalyticsIcon",
       "channels": {
-        "latest": "1.2.3"
+        "latest": "1.2.4"
       }
     },
     "dariuss.bulk-downloads": {
@@ -2186,7 +2318,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "DownloadIcon",
       "channels": {
-        "latest": "1.1.1"
+        "latest": "1.1.2"
       },
       "versions": {
         "1.0.0": {
@@ -2331,6 +2463,17 @@
             },
             "discord": {}
           }
+        },
+        "1.1.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.bulk-downloads@1.1.2.zip",
+          "sha256": "250175c2675c4b246cd69d765b7488beb38a42bcbcf4da29da62c931ac6d1aa7",
+          "size": 4564,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -2340,7 +2483,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "EyeIcon",
       "channels": {
-        "latest": "1.3.2"
+        "latest": "1.3.3"
       },
       "versions": {
         "1.0.0": {
@@ -2408,6 +2551,17 @@
             },
             "discord": {}
           }
+        },
+        "1.3.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.show-blocked@1.3.3.zip",
+          "sha256": "3647f738f613e0f559c3cad93bfe6d6d2ff8d370a096a9373cb4a91acea255cc",
+          "size": 3513,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -2417,7 +2571,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.1.1"
+        "latest": "1.1.2"
       },
       "versions": {
         "1.0.0": {
@@ -2463,16 +2617,27 @@
             },
             "discord": {}
           }
+        },
+        "1.1.2": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.1.2.zip",
+          "sha256": "da692b511d5a8c54db08da2548b6d9a56487c29a41707403aad22ea6abe54f3f",
+          "size": 5352,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
     "dariuss.no-onboarding-delay": {
       "name": "No Onboarding Delay",
-      "description": "Skips the slow waits and animation delays in server onboarding.",
+      "description": "Skips the slow waits in server onboarding.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "TimerIcon",
       "channels": {
-        "latest": "1.0.7"
+        "latest": "1.0.8"
       },
       "versions": {
         "1.0.0": {
@@ -2562,16 +2727,27 @@
             },
             "discord": {}
           }
+        },
+        "1.0.8": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.no-onboarding-delay@1.0.8.zip",
+          "sha256": "9cea7cbdd19ae5cebe5ddc47154c97db6b964032288a62e21ce2f268494919c8",
+          "size": 2724,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
     "dariuss.better-toasts": {
       "name": "Better Toasts",
-      "description": "Choose how long Discord's pop-up toasts stay, and make a new toast replace the old one.",
+      "description": "Choose how long toasts stay, and add replace, pause, swipe to dismiss, tap to copy and a history of recent toasts.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "BellIcon",
       "channels": {
-        "latest": "1.1.3"
+        "latest": "1.1.4"
       },
       "versions": {
         "1.0.0": {
@@ -2870,6 +3046,17 @@
             },
             "discord": {}
           }
+        },
+        "1.1.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.better-toasts@1.1.4.zip",
+          "sha256": "1d54fd7aa46f5d51a4a9fd7e022a2e3672f3726f580abdd21a48b4f41e838746",
+          "size": 5761,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -3007,11 +3194,11 @@
     },
     "dariuss.custom-quick-reactions": {
       "name": "Custom Quick Reactions",
-      "description": "Choose and reorder the quick reaction emojis shown when you long-press a message.",
+      "description": "Choose the quick reaction emojis in the long-press menu, place each one on any spot, show up to 3 rows, and give servers and DMs their own list.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ReactionIcon",
       "channels": {
-        "latest": "2.2.2"
+        "latest": "2.2.3"
       },
       "versions": {
         "1.1.0": {
@@ -3128,6 +3315,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@2.2.2.zip",
           "sha256": "17751cfd7aec121b159bcac7144a60a0b4ed5b33a6a3b80305009387edbedc3c",
           "size": 8404,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.2.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.custom-quick-reactions@2.2.3.zip",
+          "sha256": "698332f6180197101c5c61c3bd888fa5411b058867688636505c8ab6995025d7",
+          "size": 8346,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
