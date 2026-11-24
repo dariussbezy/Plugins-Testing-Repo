@@ -2428,6 +2428,17 @@
             },
             "discord": {}
           }
+        },
+        "2.0.10": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.music-controls@2.0.10.zip",
+          "sha256": "02f47b2e3e209ca275d241ad97aff368a3c212e3593cc43a381357653a7de9c9",
+          "size": 31267,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Music Controls",
@@ -2435,7 +2446,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "latest": "2.0.9"
+        "latest": "2.0.10"
       },
       "contributors": [
         "coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")",
@@ -3011,7 +3022,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.1.4"
+        "latest": "1.1.5"
       },
       "versions": {
         "1.0.0": {
@@ -3084,6 +3095,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.1.4.zip",
           "sha256": "60c70006359f44a931dbb4a776f4c3876f6cbdc6d6d10b34130929e4cab89e4b",
           "size": 5876,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.1.5": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.transparent-youbar@1.1.5.zip",
+          "sha256": "8569ddca5131df127f8ba253edb42b5338ac3a7251f15d9146d85e12641d7a7f",
+          "size": 6289,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
