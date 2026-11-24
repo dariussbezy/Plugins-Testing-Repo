@@ -9,7 +9,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "latest": "2.13.6"
+        "latest": "2.13.7"
       },
       "versions": {
         "2.0.5-beta": {
@@ -539,6 +539,17 @@
             },
             "discord": {}
           }
+        },
+        "2.13.7": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.7.zip",
+          "sha256": "cfae9950a48d29892c83642517594cc5a0520d3bbebbd9cfcea9979d4627f8c8",
+          "size": 29300,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       }
     },
@@ -936,7 +947,7 @@
     },
     "dariuss.midnight-theme": {
       "name": "Midnight Mobile",
-      "description": "Midnight for Discord mobile: navy panels, blue accents, Figtree, the moon icon and an optional outline icon pack.",
+      "description": "Midnight for Discord mobile, close to the desktop theme: navy surfaces over the original wallpaper, blue accents, Figtree and the moon logo.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "contributors": [
         "refact0r (original Midnight theme)",
@@ -945,7 +956,7 @@
       ],
       "icon": "MoonIcon",
       "channels": {
-        "latest": "2.2.7"
+        "latest": "2.2.8"
       },
       "versions": {
         "1.0.2-beta": {
@@ -1117,6 +1128,21 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.7.zip",
           "sha256": "325524b424468059274d9b93798848c9e45751398450266dcc1e969c50cc3cc5",
           "size": 2372150,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.themes": {
+              "version": ">=1.0.1 <2"
+            },
+            "valenced.settings.themes": {}
+          }
+        },
+        "2.2.8": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.midnight-theme@2.2.8.zip",
+          "sha256": "c78fe7ae16afde435fc6fd7a946551ef4e814e580cd066e4e19a57e6acb1bed2",
+          "size": 1933044,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -3990,7 +4016,7 @@
     },
     "dariuss.glass-lab": {
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.0.3"
       },
       "versions": {
         "1.0.0": {
@@ -4019,6 +4045,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.glass-lab@1.0.2.zip",
           "sha256": "f53a8084f4558ec9293afe9dfb173b5c7f7311725db9ec1b6dd5bfff6914381f",
           "size": 5585,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.3": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.glass-lab@1.0.3.zip",
+          "sha256": "28253407802c99b971a44426f225010f3bcc480397f2a0492a8614ebd5cbd29f",
+          "size": 5758,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
