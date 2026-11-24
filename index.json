@@ -3987,6 +3987,28 @@
           }
         }
       }
+    },
+    "dariuss.glass-lab": {
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.glass-lab@1.0.0.zip",
+          "sha256": "4a65a94b3c2c52b6cd48df9059d348a49e8b3ec3029ff4a24953f5a9602d3f95",
+          "size": 5386,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      },
+      "name": "Glass Lab",
+      "description": "Experiment: a liquid glass lens that bends, splits and blurs what is behind it, drawn from a screen capture. Open its settings to try it and see how fast your phone captures the screen.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "SparklesIcon"
     }
   }
 }
