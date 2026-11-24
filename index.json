@@ -3990,13 +3990,24 @@
     },
     "dariuss.glass-lab": {
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.glass-lab@1.0.0.zip",
           "sha256": "4a65a94b3c2c52b6cd48df9059d348a49e8b3ec3029ff4a24953f5a9602d3f95",
           "size": 5386,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.1": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.glass-lab@1.0.1.zip",
+          "sha256": "ba680506dc9d16bce16f4ba9a28e160a46fcdd3b598050371db33baf51efc4e3",
+          "size": 5585,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
