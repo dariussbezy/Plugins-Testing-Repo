@@ -9,7 +9,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "ChatMarkUnreadIcon",
       "channels": {
-        "latest": "2.13.8"
+        "latest": "2.13.9"
       },
       "versions": {
         "2.0.5-beta": {
@@ -555,6 +555,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.8.zip",
           "sha256": "7a1cbd7820a3c92d4137d75dfd7406c6fec1d44400482850f6c9e234845b5b89",
           "size": 29319,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "2.13.9": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.advanced-message-logger@2.13.9.zip",
+          "sha256": "a2ffe17acb4247cf85b7f64e27ace9c6b38dd4538981124a8ade3c852eb7b5e5",
+          "size": 30425,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -2111,7 +2122,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "SettingsIcon",
       "channels": {
-        "latest": "1.0.10"
+        "latest": "1.0.11"
       },
       "versions": {
         "1.0.0": {
@@ -2228,6 +2239,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.10.zip",
           "sha256": "2303c8ce857c1e4ab4345c37e95064e0246bae46247429be038f50b4a6b64659",
           "size": 7542,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.0.11": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.message-actions@1.0.11.zip",
+          "sha256": "dff04ce9511b2fc4e670b7d9a3d647523a18e004e2f554d09b79e8a9ec065805",
+          "size": 8582,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -2875,6 +2897,21 @@
               "optional": true
             }
           }
+        },
+        "1.2.9": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.performance-monitor@1.2.9.zip",
+          "sha256": "a3b4caf6f32c783a249b6072eb0371b77dff17ea79ef62e667cc5ed0e7dce7c2",
+          "size": 21329,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {},
+            "valenced.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
         }
       },
       "name": "Performance Monitor",
@@ -2882,7 +2919,7 @@
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "AnalyticsIcon",
       "channels": {
-        "latest": "1.2.8"
+        "latest": "1.2.9"
       }
     },
     "dariuss.bulk-downloads": {
@@ -3778,11 +3815,11 @@
     },
     "dariuss.profile-theme-colors": {
       "name": "Profile Theme Colors",
-      "description": "Pick your profile's primary and secondary colors by hand, from your banner, or with AI.",
+      "description": "Pick your profile's primary and secondary colors by hand, from your banner, or with AI. Requires Nitro: Discord only saves profile colors for Nitro subscribers.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "PaletteIcon",
       "channels": {
-        "latest": "1.5.3"
+        "latest": "1.5.4"
       },
       "versions": {
         "1.0.0": {
@@ -3899,6 +3936,17 @@
           "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.profile-theme-colors@1.5.3.zip",
           "sha256": "6f134daf71fd28f2c82e59b12773bd6736d98d2909d38bcb9dae5fcad7cba915",
           "size": 17595,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        },
+        "1.5.4": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.profile-theme-colors@1.5.4.zip",
+          "sha256": "585e0bcc29494c48d9322445526936d9b8613dc43dea6e2f96ac45c177b3c6dc",
+          "size": 17759,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
@@ -4193,6 +4241,28 @@
       "description": "Experiment: a liquid glass lens that bends, splits and blurs what is behind it, drawn from a screen capture. Open its settings to try it and see how fast your phone captures the screen.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "SparklesIcon"
+    },
+    "dariuss.voice-changer": {
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-changer@1.0.0.zip",
+          "sha256": "142c98ce8b9ce98e4df6c7eea0da119dbda2c4b79de7992020c05ae789957edd",
+          "size": 4864,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
+        }
+      },
+      "name": "Voice Changer",
+      "description": "Changes how your voice sounds to others in calls: telephone, walkie-talkie, muffled, lo-fi or your own mix of sound quality and bitrate.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+      "icon": "MicrophoneIcon"
     }
   }
 }
