@@ -4244,7 +4244,7 @@
     },
     "dariuss.voice-changer": {
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
@@ -4257,10 +4257,21 @@
             },
             "discord": {}
           }
+        },
+        "1.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Plugins-Testing-Repo/main/pool/dariuss.voice-changer@1.1.0.zip",
+          "sha256": "3038cb9facf2c77cdc60e762a0834ffd7523c81c9c26d96c67fddc2616e753eb",
+          "size": 14186,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
       },
       "name": "Voice Changer",
-      "description": "Changes how your voice sounds to others in calls: telephone, walkie-talkie, muffled, lo-fi or your own mix of sound quality and bitrate.",
+      "description": "Changes how your voice sounds to others in calls: a deeper or higher pitch (Android), telephone, walkie-talkie, muffled, lo-fi or your own mix.",
       "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MicrophoneIcon"
     }
